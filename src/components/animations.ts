@@ -29,7 +29,7 @@ export const fadeInLeft: Variants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -38,7 +38,7 @@ export const fadeInLeft50: Variants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -47,7 +47,7 @@ export const fadeInRight: Variants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -56,7 +56,7 @@ export const fadeInRight50: Variants = {
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -65,7 +65,7 @@ export const fadeInUp: Variants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -74,7 +74,7 @@ export const fadeInTop: Variants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 
@@ -83,7 +83,7 @@ export const fadeInBottom: Variants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1, ease: "easeOut" },
+    transition: { duration: 1, ease: "easeOut" as const },
   },
 };
 

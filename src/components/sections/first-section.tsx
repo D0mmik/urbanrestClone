@@ -23,10 +23,34 @@ export default function FirstSection() {
                 <Showcase text="Loyal Customers" num={230}>M+</Showcase>
                 <Showcase text="Cozy Cabins" num={127}>+</Showcase>
               </div>
-              <motion.button initial={{y: '50%', opacity: 0}}
-                             animate={{y: 0, opacity: 1}} transition={{duration: 1, ease: "easeInOut"}}
-                             className="border-bright-blue border-2 rounded-xl px-5 py-3 text-bright-blue text-xl my-5">Learn More
-                arrow
+              <motion.button 
+                initial={{y: '50%', opacity: 0}}
+                animate={{y: 0, opacity: 1}} 
+                whileHover={{ 
+                  y: 5,
+                  backgroundColor: "#e3cba4",
+                  borderColor: "transparent"
+                }}
+                transition={{ 
+                  duration: 0.3, 
+                  ease: "easeOut"
+                }}
+                className="border-bright-blue border-2 rounded-xl px-5 py-3 text-bright-blue text-xl my-5 flex items-center gap-2"
+              >
+                Learn More
+                <svg 
+                  width="20" 
+                  height="20" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
+                </svg>
               </motion.button>
             </div>
           </div>

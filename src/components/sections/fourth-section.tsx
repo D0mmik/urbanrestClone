@@ -6,7 +6,7 @@ export default function FourthSection() {
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 1, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" as const },
     },
   };
 
@@ -15,7 +15,7 @@ export default function FourthSection() {
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 1, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" as const },
     },
   };
 
@@ -24,7 +24,7 @@ export default function FourthSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 1, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" as const },
     },
   };
 
@@ -33,7 +33,7 @@ export default function FourthSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 1, ease: "easeOut" },
+      transition: { duration: 1, ease: "easeOut" as const },
     },
   };
 
@@ -54,8 +54,11 @@ export default function FourthSection() {
             <p className="font-extralight text-sm my-10">
               Escape the noise and unwind in our thoughtfully designed cottages where comfort meets nature in perfect harmony
             </p>
-            <button className="border-white border-1 rounded-xl px-5 py-3 text-white text-xl my-5 w-52">
-              Learn More arrow
+            <button className="border-white border-1 rounded-xl px-5 py-3 text-white text-xl my-5 w-52 flex items-center justify-between">
+              Learn More
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
             </button>
           </motion.div>
 

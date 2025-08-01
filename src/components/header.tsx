@@ -3,9 +3,9 @@ import HeaderButton from "./header-button.tsx";
 export default function Header() {
   return (
     <div className="flex justify-center">
-      <nav className="flex justify-between p-15 pt-10 pb-0 w-1/2">
+      <nav className="flex justify-between p-15 pt-10 pb-0 min-xl:w-1/2 w-full">
         <h1 className="text-main text-xl">UrbanRest.</h1>
-        <div>
+        <div className="text-main">
           <HeaderButton>Home</HeaderButton>
           <HeaderButton>About Us</HeaderButton>
           <HeaderButton>Cottages</HeaderButton>
