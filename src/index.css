@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: rgba(245,236,220,255);
+    --color-main: rgba(14,32,80,255);
+    --color-bright-blue: rgba(35,67,156,255);
+    --color-bg-p: rgba(237,226,208,255);
+    --color-bg-bar: rgba(225,204,161,255);
+    --color-card-bg: rgba(228,217,192,255);
+}
