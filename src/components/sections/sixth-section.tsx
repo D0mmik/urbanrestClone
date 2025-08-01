@@ -3,7 +3,7 @@ import Card from "../card.tsx";
 export default function SixthSection() {
   return (
     <section className="p-20 flex justify-center">
-      <div className="w-1/2">
+      <div className="min-xl:w-1/2">
         <h1 className="text-6xl font-semibold w-8/12 text-main">There Are Many Activities &nbsp; In Each Destination</h1>
         <div className="rounded-3xl bg-yellow-600 my-10 h-48 text-white">
           <div className="flex flex-col p-10 w-5/12 justify-start items-start">

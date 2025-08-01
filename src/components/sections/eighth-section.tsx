@@ -3,7 +3,7 @@ import Question from "../question.tsx";
 export default function EighthSection() {
   return (
     <section className="p-20 flex justify-center">
-      <div className="w-1/2">
+      <div className="min-xl:w-1/2">
         <div className="flex">
           <h1 className="text-6xl font-semibold text-main w-7/12">Got Questions? We’ve Got Answers</h1>
           <div className="w-7/12 flex justify-end text-right items-end">

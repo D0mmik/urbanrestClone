@@ -1,7 +1,7 @@
 export default function SeventhSection() {
   return (
     <section className="p-20 text-white flex justify-center flex-col bg-bright-blue relative text-center items-center z-5">
-      <div className="w-1/2">
+      <div className="min-xl:w-1/2">
         <h2 className="text-6xl font-medium">We Provide The Finest Cottages</h2>
         <p className="w-1/2 font-extralight my-5">Escape the noise and unwind in our thoughtfully designed cottages where comfort meets nature in perfect harmony</p>
         <div className="rounded-3xl bg-yellow-600 my-3 h-48 text-white w-full text-left">
